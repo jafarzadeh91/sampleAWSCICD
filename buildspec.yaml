@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "🔧 [pre_build] Preparing environment..."
+  build:
+    commands:
+      - echo "🔨 [build] Building the project..."
+  post_build:
+    commands:
+      - echo "✅ [post_build] Build completed successfully."
+
+artifacts:
+  files:
+    - '**/*'
