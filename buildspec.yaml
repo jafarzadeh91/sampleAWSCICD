@@ -10,7 +10,3 @@ phases:
   post_build:
     commands:
       - echo "✅ [post_build] Build completed successfully."
-
-artifacts:
-  files:
-    - '**/*'
